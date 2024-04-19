@@ -30,58 +30,58 @@
   left: 2cm,
   right: 2cm,
 
-  // 如果需要姓名及联系信息居中，请删除下面关于头像的三行参数，并取消headerCenter的注释
+  // 如果需要姓名及联系信息居中,请删除下面关于头像的三行参数,并取消headerCenter的注释
   //headerCenter : true,
   
-  // 如果不需要头像，则将下面三行的参数注释或删除
+  // 如果不需要头像,则将下面三行的参数注释或删除
   photograph: "profile.jpg",
   photographWidth: 10em,
   gutterWidth: 2em,
 )[
 
-= 方橙
+= 仇乾栋
 
 #info(
   color: themeColor,
   (
     // 其实 icon 也可以直接填字符串, 如 "fa-phone.svg" 
     icon: faPhone,
-    content: "(+86) 155-5555-5555"
+    content: "(+86) 188-1795-0317"
   ),
   (
     icon: faBuildingColumns,
-    content: "南京大学",
+    content: "上海财经大学",
   ),
   (
     icon: faGraduationCap,
-    content: "人工智能",
+    content: "统计学",
   ),
   (
     icon: faEnvelope,
-    content: "orangex4@qq.com",
-    link: "mailto:orangex4@qq.com"
+    content: "zhuwudaoqin@outlook.com",
+    link: "mailto:zhuwudaoqin@outlook.com"
   ),
   (
     icon: faGithub,
-    content: "github.com/orangex4",
-    link: "https://github.com/orangex4",
+    content: "github.com/zwdq",
+    link: "https://github.com/zwdq",
   ),
 )
 ][
 #h(2em)  // 手动顶行, 2em 代表两个字的宽度
 
-我是 OrangeX4，你也可以叫我 *一只方橙* 或 *方橙*。现在是南京大学人工智能学院 2020 级本科生，正深陷于学习数学、编程和英语的无边苦海中。你问为什么我的名字那么奇怪？ 大概是我喜欢吃橘子和橙子，又谐音方程，还有和我的名字谐音的缘故吧。喜欢一切新奇的东西，兴趣十分广泛。
+我是乾栋,擅长统计学和机器学习、推荐算法,对金融科技领域比较有经验,希望一起学习沟通。
 ]
 
 
 == #faGraduationCap 教育背景
 
 #sidebar(withLine: true, sideWidth: 12%)[
-  2023.05
+  2012.09
   
-  2020.09
+  2016.06
 ][
-  *南京大学* · 人工智能学院 · 人工智能专业
+  *上海财经大学* · 统计与管理学院 · 统计学
   
   GPA: 4.48 / 5 · Rank: 15%
 ]
@@ -90,36 +90,38 @@
 == #faWrench 专业技能
 
 #sidebar(withLine: false, sideWidth: 12%)[
-  *操作系统*
-  
-  *掌握*
-  
+
+  *精通*
+
   *熟悉*
-
-  *了解*
 ][
-  #faLinux Linux, #h(0.5em) #faWindows Windows
+  C++, Python, Sql, Pytorch, LLM
   
-  React, JavaScript, Python
-  
-  Vue, TypeScript, Node.js
+  Rust, Golang, Tensorflow
 
-  Webpack, Java
 ]
 
-
-== #faAward 获奖情况
+== #faAward 工作经历
 
 #item(
-  [ *人民奖学金* ],
-  [ *一等奖 · 二等奖* ],
-  date[ 2021 年 11 月 – 2022 年 11 月 ]
+  [ *中金公司* ],
+  [ *数据分析师* ],
+  [ 2021 年 11 月 – 至今 ]
 )
-
 #item(
-  [ *人工智能 +* ],
-  [ *二等奖* ],
-  date[ 2021 年 11 月 – 2022 年 11 月 ]
+  [ *中信建投证券有限公司* ],
+  [ *算法工程师* ],
+  [ 2021 年 11 月 – 2022 年 11 月 ]
+)
+#item(
+  [ *北京快手科技有限公司* ],
+  [ *算法工程师* ],
+  [ 2021 年 11 月 – 2022 年 11 月 ]
+)
+#item(
+  [ *银联数据服务有限公司* ],
+  [ *算法工程师* ],
+  [ 2021 年 11 月 – 2022 年 11 月 ]
 )
 
 // == #faWork 实习经历
@@ -131,39 +133,45 @@
 #item(
   link(
     "https://github.com/OrangeX4/Latex-Sympy-Calculator",
-    [ *Latex Sympy Calculator* ]
+    [ *快手推荐系统精排模型* ]
   ),
-  [ *个人项目* ],
-  date[ 2021 年 02 月 – 2021 年 04 月 ]
+  [ *公司项目* ],
+  [ 2021 年 02 月 – 2021 年 04 月 ]
 )
 
-#tech[ NodeJS, Python, VS Code ]
+利用因果推断、深度学习,对快手发现页双列Feed流推荐系统中的精排算法进行升级。
 
-一个用于在 VS Code 中使用 LaTeX 数学公式进行「科学计算」的插件
-
-- 使用 ANTLR 将 LaTeX 语句编译为 Sympy 语句
-- 通过 Flask 搭建本地 HTTP 服务器与 VS Code 插件进行通信
-- 可以进行多种类型的科学计算，如积分求导、矩阵计算、无穷级数计算等
+- 优化PPnet模型
+- 优化SIM模型
 
 #item(
   link(
     "https://github.com/OrangeX4/Reversi",
-    [ *黑白棋 Reversi* ]
+    [ *中信建投大语言模型落地* ]
   ),
-  [ *课程项目* ],
-  date[ 2021 年 02 月 – 2021 年 04 月 ]
+  [ *公司项目* ],
+  [ 2021 年 02 月 – 2021 年 04 月 ]
 )
 
-#tech[ React, Python, AI ]
+基于ptuning微调的chatglm2模型,成功落地在text2sql及稽核审计法律助手场景。
 
-基于 React 与 Antd 的黑白棋前端，与基于 Python 的黑白棋 AI 后端
+- 使用ptuning,提高了效果
+- 使用langchain开发rag,提高了效果
 
-- 使用基于评估函数的 BFS 实现了黑白棋 AI，并实现了 Alpha-Beta 剪枝
-- 基于 React 搭建了一个黑白棋平台前端，支持玩家对战、人机对战和 AI 对战
-- 在后端使用 Flask 及 Socket.io 库，实现了玩家之间的联机对战
+#item(
+  link(
+    "https://github.com/OrangeX4/Reversi",
+    [ *银联信用卡评分模型* ]
+  ),
+  [ *公司项目* ],
+  [ 2021 年 02 月 – 2021 年 04 月 ]
+)
+基于ptuning微调的chatglm2模型,成功落地在text2sql及稽核审计法律助手场景
 
+- 使用ptuning,提高了效果
+- 使用langchain开发rag,提高了效果
 
-== #faBuildingColumns 校园经历
+== #faBuildingColumns 个人总结
 
 
 #item(
