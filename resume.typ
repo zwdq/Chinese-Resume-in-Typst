@@ -90,13 +90,13 @@
 
 #sidebar(withLine: false, sideWidth: 12%)[
 
-  *精通*
+  *掌握*
 
   *熟悉*
 ][
-  C++, Python, Sql, Pytorch, LLM
+  C/C++, Python, Sql, Pytorch, LLM
   
-  Rust, Golang, Tensorflow
+  Rust,Tensorflow
 
 ]
 
@@ -132,7 +132,7 @@
 #item(
   link(
     "https://github.com/OrangeX4/Latex-Sympy-Calculator",
-    [ *快手推荐系统精排模型* ]
+    [ *快手核心推荐系统* ]
   ),
   [ *公司项目* ],
   [ 2021 年 02 月 – 2021 年 04 月 ]
@@ -146,7 +146,7 @@
 #item(
   link(
     "https://github.com/OrangeX4/Reversi",
-    [ *中信建投大语言模型落地* ]
+    [ *中信集团大语言模型* ]
   ),
   [ *公司项目* ],
   [ 2021 年 02 月 – 2021 年 04 月 ]
@@ -160,12 +160,12 @@
 #item(
   link(
     "https://github.com/OrangeX4/Reversi",
-    [ *银联信用卡评分模型* ]
+    [ *银联信用评分卡模型* ]
   ),
   [ *公司项目* ],
   [ 2021 年 02 月 – 2021 年 04 月 ]
 )
-基于ptuning微调的chatglm2模型,成功落地在text2sql及稽核审计法律助手场景
+基于
 
 - 使用ptuning,提高了效果
 - 使用langchain开发rag,提高了效果
